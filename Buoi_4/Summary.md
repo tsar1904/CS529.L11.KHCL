@@ -1,4 +1,4 @@
-Làm nghiên cứu như thế nào
+- Làm nghiên cứu như thế nào
 1: Khảo sát (Survey)
 why:
 ko phải là người đầu tiên tìm ra
@@ -15,10 +15,10 @@ tìm 30 nghiên cứu/ bài báo có liên quan
 đóng góp của phương pháp này là gì?
 b2: Tổng hợp các hướng tiếp cận
 sử dụng mindmap để tổng hợp
-phâ loại các hướng tiếp cận
+phân loại các hướng tiếp cận
 nêu được ưu/khuyết của từng hướng tiếp cận
-3 đề xuất giải pháp
-4 thí nghiệm
-5 viết report
-6. public -app
+3: đề xuất giải pháp
+4: thí nghiệm
+5: viết report
+6: public -app
 -conference paper 
