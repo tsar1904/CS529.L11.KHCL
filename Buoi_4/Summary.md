@@ -1,5 +1,5 @@
-làm nghiên cứu như thế nào
-b1: khảo sát (survey)
+Làm nghiên cứu như thế nào
+1: Khảo sát (Survey)
 why:
 ko phải là người đầu tiên tìm ra
 đừng phát minh lại bánh xe
