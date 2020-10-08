@@ -1,0 +1,120 @@
+30 bài về topic face Recognition 
+1. Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition
+2. Learning from Millions of 3D Scans for Large-scale 3D Face Recognition
+3. Nasal Patches and Curves for Expression-Robust 3D Face Recognition'
+4. 3D face recognition using covariance based descriptors
+5. Gaussian mixture 3D morphable face model
+6. Supplementary Material Joint Face Alignment and 3D Face Reconstruction
+7. UV-GAN: Adversarial Facial UV Map Completion for Pose-invariant Face Recognition
+8. Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network
+9. GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction
+10. end-to-end 3D face reconstruction with deep neural networks
+11. Nonlinear 3D Face Morphable Model
+12. Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
+13. Large-Pose Face Alignment via CNN-Based Dense 3D Model Fitting
+14. Extreme 3D Face Reconstruction: Seeing Through Occlusions
+15. A Multiresolution 3D Morphable Face Model and Fitting Framework
+16. Face Alignment Across Large Poses: A 3D Solution
+17. Adaptive 3D Face Reconstruction from Unconstrained Photo Collections
+18. How Far Are We From Solving the 2D & 3D Face Alignment Problem? (And a Dataset of 230,000 3D Facial Landmarks)
+19. A Survey of 3D Face Recognition Methods
+20. FacePoseNet: Making a Case for Landmark-Free Face Alignment
+21. Large Pose 3D Face Reconstruction From a Single Image via Direct Volumetric CNN Regression
+22. Unsupervised Training for 3D Morphable Model Regression
+23. Automated 3D Face Reconstruction From Multiple Images Using Quality Measures
+24. Generating 3D Faces using Convolutional Mesh Autoencoders
+25. Multimodal face recognition method with two-dimensional hidden Markov model
+26. Disentangled Representation Learning GAN for Pose-Invariant Face Recognition
+27. Reconstruction-Based Disentanglement for Pose-Invariant Face Recognition
+28. Pose-Aware Face Recognition in the Wild
+29. OpenFace: A general-purpose face recognition library with mobile applications
+30. Towards Large-Pose Face Frontalization in the Wild
+10 bài chọn ra:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bài của Xuân Lộc _ MSSV: 18521007
+1. Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition (1/30)
+Ấn tượng đầu tiên khi nhìn vào bài báo cáo : nó trực tiếp hồi quy các hình dạng khuôn mặt 3D .
+- Bài báo cáo này đề xuất một mạng bộ mã hóa - giải mã  để tách các đặc điểm hình dạng trong quá trình tái tạo khuôn mặt 3D từ các hình ảnh 2D đơn lẻ, sao cho các nhiệm vụ tái tạo hình dạng khuôn mặt 3D chính xác và học các điểm hình dạng phân biệt để nhận dạng khuôn mặt có thể được thực hiện đồng thời
+-  Phương pháp này trực tiếp hồi quy các hình dạng khuôn mặt 3D dày đặc từ các hình ảnh 2D đơn lẻ và xử lý các thành phần nhận dạng và dư(không nhận dạng) trong hình dạng khuôn mặt 3D một cách rõ ràng và riêng biệt.
+- xâu dựng dữ liệu đào tạo : phát triển một phương pháp để điều chỉnh mô hình pha trộn 3D (3DMM)
+- Kết quả cho thấy rằng phương pháp này mở rộng khả năng của 3DMM để nắm bắt các đặc điểm hình dạng và chi tiết khuôn mặt phân biệt, và do đó vượt trội hơn các phương pháp hiện có cả về độ chính xác tái tạo khuôn mặt 3D và độ chính xác của nhận dạng khuôn mặt.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. 3D face recognition using covariance based descriptors (4/30)
+Ấn tượng đầu tiên khi nhìn vào bài báo cáo: sử dụng bộ mô tả hiệp phương sai
+- Bài báo cáo đề xuất một phương pháp nhận dạng khuôn mặt 3D mới dựa trên các bộ mô tả hiệp phương sai. Các bộ mô tả dựa trên hiệp phương sai cho phép hợp nhất và mã hóa các loại tính năng và phương thức khác nhau thành một biểu diễn nhỏ gọn.
+- Mô tả hiệp phương sai: là một ma trận xác định tương đối xứng có thể được xem như một tích bên trong không gian tiếp tuyến của (Symd +) đa tạp của ma trận xác định dương đối xứng (SPD.
+- Bài viết này nghiên cứu  khoảng cách trắc địa trên đa tạp Symd + và sử dụng chúng làm thước đo để đối sánh và nhận dạng khuôn mặt 3D
+- Qua đó đánh giá hiệu suất của phương pháp được đề xuất trên cơ sở dữ liệu FRGCv2 và GAVAB và chứng minh tính ưu việt của nó so với các phương pháp hiện đại khác.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Nonlinear 3D Face Morphable Model (11/30)
+Ấn tượng đầu tiên khi nhìn vào bài báo cáo: là mô hình Morphable
+- Là một mô hình thống kê cổ điển về hình dạng và kết cấu khuôn mặt 3D
+- Mô hình 3D Morphable (3DMM) được sử dụng rộng rãi trong phân tích khuôn mặt, ví dụ: lắp mô hình, tổng hợp hình ảnh. 3DMM thông thường được học từ một tập hợp các hình ảnh khuôn mặt 2D được kiểm soát tốt với các bản quét khuôn mặt 3D liên quan và được thể hiện bằng hai bộ hàm cơ sở PCA
+- Do loại và số lượng dữ liệu đào tạo, cũng như các cơ sở tuyến tính, sức mạnh biểu diễn của 3DMM có thể bị hạn chế.
+- Để giải quyết những vấn đề này, bài báo này đề xuất một khuôn khổ sáng tạo để học mô hình 3DMM phi tuyến tính từ một tập hợp lớn các hình ảnh khuôn mặt không bị giới hạn mà không cần thu thập các bản quét khuôn mặt 3D.
+- Cụ thể, với hình ảnh khuôn mặt làm đầu vào, bộ mã hóa mạng ước tính các thông số về hình chiếu, hình dạng và kết cấu.
+- Hai bộ giải mã đóng vai trò là 3DMM phi tuyến để ánh xạ từ các tham số hình dạng và kết cấu sang hình dạng và kết cấu 3D tương ứng. Với tham số chiếu, hình dạng 3D và kết cấu, một lớp kết xuất mới có thể phân tích được sẽ được thiết kế để tái tạo lại mặt đầu vào ban đầu
+- Chứng minh sức mạnh biểu diễn vượt trội của 3DMM phi tuyến của chúng tôi so với đối tác tuyến tính của nó và đóng góp của nó vào việc căn chỉnh khuôn mặt và tái tạo 3D.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Multimodal face recognition method with two-dimensional hidden Markov model (25/30)
+Ấn tượng đầu tiên khi nhìn vào bài báo cáo: Phát triển từ mô hình Morkov.
+- Bài báo trình bày một giải pháp mới cho nhận dạng khuôn mặt dựa trên các mô hình Markov ẩn hai chiều.
+- HMM truyền thống sử dụng vectơ dữ liệu một chiều, đây là một nhược điểm trong trường hợp xử lý hình ảnh 2D và 3D, vì một phần thông tin bị mất trong quá trình chuyển đổi sang vectơ đặc trưng một chiều.
+- Bài báo trình bày khái niệm về 2DHMM công thái học đầy đủ, có thể được sử dụng trong nhận dạng khuôn mặt 2D và 3D.
+- Kết quả thử nghiệm chứng minh rằng hệ thống dựa trên mô hình Markov ẩn hai chiều có thể đạt được tỷ lệ nhận dạng tốt đối với nhận dạng hình ảnh khuôn mặt 2D, 3D và đa phương thức (2D + 3D) và nhanh hơn so với phương pháp ICP.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bài của Ngọc Chính _ MSSV: 18520534
+5. End-to-end 3D face reconstruction with deep neural networks
+Ấn tượng đầu tiên của em khi nhìn vào bài báo đó là: Nó sử dụng mạng nơ ron sâu để tái tạo khuôn mặt, và với câu chốt phương pháp này vượt trội hơn các phương pháp tiếp cận, giúp cải thiện mạnh mẽ cuả phương pháp đối với tư thế khuôn mặt và ánh sáng phức tạp.
+- Trong bảng số liệu đầu tiên thì đã cho ta thấy thông số của các lớp khác nhau trong kiến trúc mạng nơ ron sâu để tái tạo lại 1 ảnh 3D với đầu vào input là 2D
+- ở hình thứ 3 thì người ta đã cho ta thấy cề hình ảnh tương tự với mô hình dạng khuôn mặt 3D với 2 dạng khuôn mặt BFM và mô hình dạng AFM
+- hình thứ 4 thì cho ta thấy về cái bộ dữ liệu được sử dụng để thí nghiệm
+_ bảng 2 và hình 5 mô ta cho ta thấy phân phối tích lũy của RMSE và kết quả định lượng của giá trị trung bình và độ lệch chuẩn của RMSE. Và sự phân bố lổi tái tạo không gian của bốn phương pháp trên vùng mặt được mô tả ở hình 6 và các so sánh giữa các phương pháp UHEFAR với ba phương pháp khác, thì kết quả UHE2FAR là hiệu quả tốt nhất.
+- Phương pháp tái tạo khuôn mặt 3D từ đầu đến cuối dựa trên mạng nơ-ron sâu UH-E2FAR mang lại sự đơn giản hóa đáng kể cho khung bằng cách thay thế các lược đồ cập nhật tham số mô hình lặp lại bằng một lược đồ suy luận end to end và loại bỏ các thuộc tính vào kết xuất hình dạng 3D hoặc các thông số mô hình ban đầu làm đầu vào DNN bổ sung. Phương pháo này vượt trộ hơn các phương pháp tiếp cận hiện đại với sự cải thiện đáng kể về độ chính xác và bền của việc tái tạo
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. UV-GAN: Adversarial Facial UV Map Completion for Pose-invariant Face Recognition
+Ấn tượng đầu tiên về bài báo này đó là hình đầu tiên của paper. Nó dùng một hình dạng 3D xoay với bản đồ UV hoàn chỉnh, để tạo ra 1 khuôn mặt 2D với các tư thế tùy ý. Thu bộ dữ liệu quy mô lớn về các bản đồ UV trên khuôn mặt đã hoàn thành
+- Tiếp theo đó là mô hình mạng mà nó thực hiện, gồm 1 bộ tạo và 2 bộ phân biệt.
+Lấy bản đồ UV không hoàn chỉnh và phần lật của nó chứa đầy nhiễu ngẫu nhiên làm đầu vào và đầu ra bản đồ UV đầy đủ.  Hai yếu tố phân biệt được học để xác nhận tính chính hãng của kết cấu UV tổng hợp và vùng mặt chính.  Mạng phân loại danh tính được đào tạo trước luôn được cố định, để đảm bảo hơn nữa các khuôn mặt mới được tạo ra bảo toàn danh tính.
+- tiếp theo đó là hình thứ 3 vô cùng ấn tượng đó là khuôn mặt trung bình của 13 nhóm tư thế trong bộ dữ liệu CASIA. 
+- Đã đạt được việc hoàn thành bản đồ UV trên khuôn mặt được tạo ra bằng cách lắp mô hình khuôn mặt 3D vào hình ảnh.
+- Phương pháp được đề xuất cũng đạt được độ chính xác xác minh hiện đại nhất theo giao thức đánh giá hồ sơ trước của CFP
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7. Gaussian mixture 3D morphable face model
+- Một 3DMM hỗn hợp Gaussian (GM-3DMM) mô hình hóa dân số toàn cầu như một hỗn hợp của các quần thể con Gaussian.
+- Khung nhận dạng khuôn mặt dựa trên GM-3DMM bằng cách kết hợp nhiều chuyên gia, đã đạt được kết quả hiện đại trên bộ dữ liệu khuôn mặt Multi-PIE.
+Ở bảng 7 cho thấy phương pháp nhận dạng khuôn mặt dựa trên GM-3DMM tốt hơn cả phương pháp tiếp cận 2D, bao gồm cả thuật toán nhận dạng khuôn mặt dựa trên DNN và phương pháp tiếp cận dựa trên 3DMM. Rõ ràng, việc sử dụng mô hình pha trộn 3D đặc biệt thích hợp để giải quyết các thách thức do tập dữ liệu Multi-PIE đặt ra: tư thế cực đoan và các biến thể ánh sáng được xử lý đúng cách trong không gian 3D và cho phép thực hiện đối sánh khuôn mặt một cách hiệu quả độc lập với những yếu tố phiền toái này. Điều này đúng đối với tất cả các phương pháp dựa trên 3DMM so với phương pháp 2.
+Những điều ấn tượng của paper này là: 
+- Đạt được độ chính xác tốt hơn khi lắp hình ảnh khuôn mặt GM-3DMM thành 2D nhờ khởi tạo quá trình điều chỉnh ở mức trung bình thuần tập thích hợp và sử dụng các ràng buộc chính quy phù hợp
+- Giảm thiểu các vấn đề mẫu nhỏ trong ước lượng ma trận hiệp phương sai thuần tập
+- Đặc điểm chính xác hơn của dữ liệu 3D
+- Kết quả nhận dạng khuôn mặt 2D tốt hơn đáng kể đạt được trên tập dữ liệu multiPIE bao gồm các biến thể về tư thế và ánh sáng cực đoan.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bài của Đức Quốc - MSSV: 18521309
+8. Learning from Millions of 3D Scans for Large-scale 3D Face Recognition
+Ấn tượng: Từ hàng triệu mẫu scan 3D dataset có thể sử dụng cho việc nhận dạng khuôn mặt 3D với qui mô lớn
+- Bài nghiên cứu sử dụng FR3DNet (Deep 3D Face Recognition Network) có số lượng NW Param ít nhất
+- Theo như so sánh việc sử dụng FR3DNet cho độ chính xác cao nhất so với các phương pháp khác
+- Bài báo này thu hẹp khoảng cách lớn giữa những tiến bộ nghiên cứu trong thuật toán nhận dạng khuôn mặt 2D và 3D, đặc biệt là trong Deep Learning
+- Bài toán đề xuất một kỹ thuật để tạo ra hàng triệu hình ảnh khuôn mặt 3D với các đặc điểm nhận dạng độc đáo bằng cách nội suy đồng thời giữa các không gian nhận dạng khuôn mặt và biểu cảm khuôn mặt. 
+- Các yếu tố bổ sung như sự thay đổi tinh tế về hình dạng khuôn mặt, sự thay đổi lớn về hình dạng khuôn mặt, góc nhìn của máy ảnh và khớp cắn của bản thân được đưa vào để tạo ra tập dữ liệu cho bài toán.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9. Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression
+Ấn tượng: Tái tạo hình ảnh 3D góc rộng chỉ từ 1 hình ảnh bằng cách sử dụng volumetric CNN Regression
+- Bài nghiên cứu đứng thứ 3 trong 3D Face Reconstruction on Florence dataset trên trang web paperswithcode.com
+- Từ phương pháp volumetric CNN Regression sử dụng 3 networks khác nhau trên Florence dataset:
+ 1. Volumetric Regression Network (VRN)
+ 2. VRN - Guided
+ 3. VRN - Multitask
+- Trong 3 networks trên thì VRN - Guided có sự sai số nhỏ nhất so với 2 cái còn lại
+- Bài toán có thể hoạt động tốt với các tư thế, biểu cảm khác nhau của khuôn mặt.
+- Tuy nhiên  thì bài nghiên cứu này vẫn còn 1 số hạn chế và vẫn cần cải thiện để đạt được độ chính xác cao.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10. Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
+Ấn tượng: Kết hợp tái tạo khuôn mặt 3D và căn chỉnh dày đặc với mạng hồi quy Position Map
+- Bài nghiên cứu được publish ở hội nghị ECCV 2018 
+- Từ 1 hình ảnh 2d bài toán thiết kế các điểm Position Map UV trong hình ảnh từ đó cấu trúc lại các điểm vị trí đó sang mô hình khuôn mặt 3D
+- Bài toán sử dụng nhiều mẫu dataset khác nhau để cho thấy sự vượt trội của phương pháp này so với các phương pháp State of The Art khác với độ sai số nhỏ nhất
+- Không những thế bài toán này có thời gian chạy tính theo mili giây trên 1 ảnh là 9.8 ms nhanh hơn gần 10 giây so với lại phương pháp 3DSTN.
+
+
